@@ -1,0 +1,153 @@
+.user {
+    width: 70vw;
+    height: 25vh;
+    background-color: aliceblue;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px 0 rgb(174, 173, 173);
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+
+    .userDisplay {
+        width: 10vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: blue;
+
+        .userImage {
+            width: 7vw;
+            height: 7vw;
+        }
+
+        div {
+            div {
+                font-weight: bold;
+                font-size: 18px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            h5 {
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+
+    .userDetails {
+        width: 35vw;
+        padding: 0;
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+
+        .heading {
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+            height: 24px;
+
+            h1 {
+                margin: 0;
+                padding: 0;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                align-content: center;
+            }
+
+            $clr: #9f9f9f;
+
+            .userExp {
+                color: $clr;
+            }
+
+            h3 {
+                // height:calc(50% + 0px);
+                display: flex;
+                align-items: center;
+                color: $clr;
+            }
+        }
+
+        h3 {
+            margin: 10px 0 0 0 ;
+            padding: 0;
+            font-size: 20px;
+            text-align: left;
+            color: rgb(0, 123, 255);
+        }
+
+        p{
+            margin: 0;
+            padding: 0;
+            text-align: left;
+            font-size: 14px;
+        }
+
+        .subjects{
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+            padding: 10px 0;
+            color: blue;
+            font-size: 15px;
+            
+            .subject{
+                margin-right: 20px;
+                border-radius: 7px;
+                border: 1px solid blue;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: blue;
+                padding: 2px;
+                height: 15px;
+                width: 60px;
+                font-weight: 500;
+            }
+        }
+    }
+
+    .userAwards{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+
+        .star{
+            border-radius: 30px;
+            border: 1px solid ;
+            height: fit-content;
+        }
+    }
+
+    .userProfile {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        position: relative;
+        float: right;
+        place-self: right;
+        align-items: start;
+        margin: 0 0 0 auto;
+
+        .profileButton {
+            color: white;
+            background-color: blue;
+            display: flex;
+            flex-direction: row;
+            padding: 3px;
+            width: 60px;
+            font-size: 12px;
+            border-radius: 30px;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+    }
+}
