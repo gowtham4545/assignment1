@@ -116,13 +116,20 @@
 
     .userAwards{
         display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
+        flex-direction: column;
+        color: palevioletred;
+        font-size: 14px;
+        div{
 
-        .star{
-            border-radius: 30px;
-            border: 1px solid ;
-            height: fit-content;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            
+            .star{
+                border-radius: 30px;
+                border: 1px solid ;
+                height: fit-content;
+            }
         }
     }
 

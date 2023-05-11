@@ -9,7 +9,7 @@ const User = () => {
             <div className='userDisplay'>
                 <img src='https://aui.atlassian.com/aui/8.8/docs/images/avatar-person.svg' alt='user' className='userImage' />
                 <div>
-                    <div>4.3<TiStarOutline/></div>
+                    <div>4.3<TiStarOutline /></div>
                     <h5>Ratings</h5>
                 </div>
             </div>
@@ -27,10 +27,13 @@ const User = () => {
                 </div>
             </div>
             <div className='userAwards'>
-                <span className='star'  style={{background:'#FF709C' ,color:'#FF4571'}}><TiStarFullOutline color='white' style={{border:'#FF4571',color:''}}/></span>
-                <span className='star' style={{background:'yellow',border:'#FFFF33'}}><TiStarFullOutline color='white' style={{}}/></span>
-                <span className='star' style={{background:'#cccccc',border:'grey'}}><TiStarFullOutline color='white' style={{}}/></span>
-                <span className='star' style={{background:'lightgreen',border:'green'}}><TiStarFullOutline color='white' style={{}}/></span>
+                <div>
+                    <span className='star' style={{ background: '#FF709C', color: '#FF4571' }}><TiStarFullOutline color='white' style={{ border: '#FF4571', color: '' }} /></span>
+                    <span className='star' style={{ background: 'yellow', border: '#FFFF33' }}><TiStarFullOutline color='white' style={{}} /></span>
+                    <span className='star' style={{ background: '#cccccc', border: 'grey' }}><TiStarFullOutline color='white' style={{}} /></span>
+                    <span className='star' style={{ background: 'lightgreen', border: 'green' }}><TiStarFullOutline color='white' style={{}} /></span>
+                </div>
+                Awards
             </div>
             <div className='userProfile'>
                 <div className='profileButton'>
