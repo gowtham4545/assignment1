@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import Sidebar from './Components/Sidebar/Sidebar';
 import User from './Components/User/User';
 
