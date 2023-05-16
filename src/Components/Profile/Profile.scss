@@ -1,0 +1,135 @@
+// $color3:#E1E1E1;
+$color3: grey;
+$color2: #303030;
+$color1: #6864ff;
+$color4:  white;
+
+.profile {
+    text-align: center;
+    background-color: $color4;
+    margin: 20px;
+    width: 90vw;
+    padding: 40px 15vw;
+    border-radius: 5px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+
+    .profileHeading {
+        color: $color2;
+        text-align: left;
+        margin-top: 50px;
+    }
+
+    .profileBox {
+        display: flex;
+        flex-direction: column;
+
+        p{
+            display: flex;
+            margin-top: -10px;
+            color: $color3;
+            font-size: 20px;
+            font-weight: bold;
+
+            span{
+                color: $color1;
+                font-weight: bold;
+            }
+        }
+
+        .profileFields {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            .profileField {
+                display: flex;
+                flex-direction: column;
+
+                h3 {
+                    color: $color3;
+                    text-align: left;
+                }
+                .profileFieldInput {
+                    display: flex;
+                    align-items: center;
+                    color: $color3;
+                    padding: 0;
+                    border: 2px solid $color1;
+                    border-radius: 2px;
+                    width: 30vw;
+                    padding: 10px;
+
+                    input {
+                        font-size: 20px;
+                        border: 0;
+                        width: 30vw;
+                    }
+
+                    svg {
+                        transform: translateX(-30px);
+                        color: $color1;
+                        height: 20px;
+                    }
+                }
+            }
+        }
+
+        .profileBoxUpload {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+            height: 60vh;
+            background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='20' ry='20' stroke='grey' stroke-width='4' stroke-dasharray='30%2c30' stroke-dashoffset='25' stroke-linecap='round'/%3e%3c/svg%3e");
+            border-radius: 20px;
+
+            .profileUploadText{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                width: 150px;
+                padding: 10px;
+                color: $color4;
+                background-color: $color1;
+                border-radius: 30px;
+
+                p{
+                    visibility: hidden;
+                    margin: 0;
+                    padding: 0;
+                }
+            }
+        }
+    }
+
+    .profileButton{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+
+        .profileButtonOutline{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid $color1;
+            color: $color1;
+            padding: 10px 30px;
+            border-radius: 10px;
+        }
+        .profileButtonSolid{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: $color4;
+            background-color: $color1;
+            border-radius: 10px;
+            padding: 10px 30px;
+        }
+    }
+}

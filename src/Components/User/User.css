@@ -1,0 +1,140 @@
+.user {
+  width: 70vw;
+  height: 25vh;
+  background-color: aliceblue;
+  margin: 20vh 0px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px 0 rgb(174, 173, 173);
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  padding: 10px;
+}
+.user .userDisplay {
+  width: 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: blue;
+}
+.user .userDisplay .userImage {
+  width: 7vw;
+  height: 7vw;
+}
+.user .userDisplay div div {
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user .userDisplay div h5 {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+}
+.user .userDetails {
+  width: 35vw;
+  padding: 0;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+.user .userDetails .heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  height: 24px;
+}
+.user .userDetails .heading h1 {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+}
+.user .userDetails .heading .userExp {
+  color: #9f9f9f;
+}
+.user .userDetails .heading h3 {
+  display: flex;
+  align-items: center;
+  color: #9f9f9f;
+}
+.user .userDetails h3 {
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-size: 20px;
+  text-align: left;
+  color: rgb(0, 123, 255);
+}
+.user .userDetails p {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-size: 14px;
+}
+.user .userDetails .subjects {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  padding: 10px 0;
+  color: blue;
+  font-size: 15px;
+}
+.user .userDetails .subjects .subject {
+  margin-right: 20px;
+  border-radius: 7px;
+  border: 1px solid blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: blue;
+  padding: 2px;
+  height: 15px;
+  width: 60px;
+  font-weight: 500;
+}
+.user .userAwards {
+  display: flex;
+  flex-direction: column;
+  color: palevioletred;
+  font-size: 14px;
+}
+.user .userAwards div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.user .userAwards div .star {
+  border-radius: 30px;
+  border: 1px solid;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.user .userProfile {
+  display: none;
+  flex-direction: column;
+  justify-content: start;
+  position: relative;
+  float: right;
+  place-self: right;
+  align-items: start;
+  margin: 0 0 0 auto;
+}
+.user .userProfile .profileButton {
+  color: white;
+  background-color: blue;
+  display: flex;
+  flex-direction: row;
+  padding: 3px;
+  width: 60px;
+  font-size: 12px;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}/*# sourceMappingURL=User.css.map */
